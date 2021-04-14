@@ -1,4 +1,4 @@
-<include a CircleCI status badge, here>
+!https://circleci.com/gh/CircleCI/MLProject.svg?style=svg!:https://app.circleci.com/pipelines/github/Peter-Soliman1/MLProject?status=notFailed
 
 ## Project Overview
 
