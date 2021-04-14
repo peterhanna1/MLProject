@@ -50,4 +50,8 @@ jobs:
           command: |
             . venv/bin/activate
             make lint
+workflows:
+  main:
+    jobs:
+      - build            
 
