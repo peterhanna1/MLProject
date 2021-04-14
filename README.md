@@ -1,4 +1,4 @@
-!https://circleci.com/gh/CircleCI/MLProject.svg?style=svg!:https://app.circleci.com/pipelines/github/Peter-Soliman1/MLProject?status=notFailed
+https://app.circleci.com/pipelines/github/Peter-Soliman1/MLProject/6/workflows/f9137d0f-57c6-4b0f-8e8d-e78892a677db/jobs/6
 
 ## Project Overview
 
