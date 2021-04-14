@@ -1,0 +1,25 @@
+$ ./run_kubernetes.sh
+Flag --generator has been deprecated, has no effect and will be removed in the future.
+Error from server (AlreadyExists): pods "houseprice" already exists
+NAMESPACE              NAME                                        READY   STATUS    RESTARTS   AGE 
+default                houseprice                                  1/1     Running   0          61m 
+kube-system            coredns-74ff55c5b-2jv6r                     1/1     Running   1          4d3h
+kube-system            etcd-minikube                               1/1     Running   1          4d3h
+kube-system            kube-apiserver-minikube                     1/1     Running   1          4d3h
+kube-system            kube-controller-manager-minikube            1/1     Running   1          4d3h
+kube-system            kube-proxy-77ks6                            1/1     Running   1          4d3h
+kube-system            kube-scheduler-minikube                     1/1     Running   1          4d3h
+kube-system            storage-provisioner                         1/1     Running   2          4d3h
+kubernetes-dashboard   dashboard-metrics-scraper-f6647bd8c-mjv4b   1/1     Running   1          4d3h
+kubernetes-dashboard   kubernetes-dashboard-968bcb79-x5k88         1/1     Running   2          4d3h
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+
+psoliman@PSOLIMAN-EG MINGW64 /d/Courses/DevOps/Microservices/Project/DevOps_Microservices/project-ml-microservice-kubernetes (master)
+$ ./make_prediction.sh
+Port: 8000
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}
